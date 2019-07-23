@@ -3,9 +3,7 @@ import java.util
 object Environment { 
 	val baseURL = scala.util.Properties.envOrElse("baseURL", System.getProperty("host"))
 	//val csv = scala.util.Properties.envOrElse("csv", "proxysql.csv")
-
-  val csv = scala.util.Properties.envOrElse("csv", "TicketInvoice.csv")
-
+  val csv = scala.util.Properties.envOrElse("csv", "TestNAMVV.csv")
   
   val csv1 = scala.util.Properties.envOrElse("csv1", "Groupnames.csv")
 	val users = scala.util.Properties.envOrElse("numberOfUsers", "5000")

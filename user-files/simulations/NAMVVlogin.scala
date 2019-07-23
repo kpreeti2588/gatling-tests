@@ -43,7 +43,7 @@ class NAMVVlogin extends Simulation {
         // .exec(LoadHomePage.getHomePage)
         // .exec(UserLogin.login)
         // .exec(LoadDashboard.getDashboard)
-        // .exec(LoadBuyPage.getBuy)
+         .exec(LoadBuyPage.getBuy)
         // .exec(BuyMemberList.getEvent)
         // .exec(BuyMemberEvents.getAllEvents)
         // .exec(MemberList.getMembers) 
